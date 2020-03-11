@@ -1,13 +1,10 @@
-// Greet a person
-function greet(name, lastName) {
-    console.log('Hello, ' + name + ' ' + lastName);
-}
+let a = 'red';
+let b = 'blue';
+
+let c = b;
+b = a;
+a = c;
 
 
-// Calculate a thing
-function square(number) {
-    return number * number;
-}
-
-greet('Natalie', 'S');
-console.log(square(8));
+console.log(a);
+console.log(b);
